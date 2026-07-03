@@ -1,7 +1,7 @@
 import axios, { AxiosError } from 'axios';
 import type { ApiError, ApiResponse } from '@/types';
 
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'https://finance-backend-production-9f5a.up.railway.app';
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'https://finance-backend-production-9f5a.up.railway.app/api';
 
 console.log("API_BASE_URL =", API_BASE_URL);
 
